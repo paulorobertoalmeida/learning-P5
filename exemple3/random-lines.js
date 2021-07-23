@@ -1,6 +1,6 @@
 let x = 0;
 let y = 0;
-let spacing = 3;
+let spacing = 10;
 
 function setup() {
   createCanvas(400, 400);
