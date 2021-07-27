@@ -16,4 +16,5 @@ function draw() {
         rotate(radians(frameCount/2));
         fill(sliderY, 40);
         rect(0, 0, x, x);
+    }
 }
