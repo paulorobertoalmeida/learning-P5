@@ -1,3 +1,4 @@
+:art: 
 # Learning-P5
 
 Its a crazy ride since the moment you decided to learn something new huh? Thats why I'm trying to document my journey and I'll put here every good content I like to be part of this big file. <br>
