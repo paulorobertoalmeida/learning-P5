@@ -20,3 +20,7 @@ p5.js is a JavaScript library for creative coding, with a focus on making coding
 [The Code Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) <br>
 
 ## Twitter
+
+## Podcast
+[Modern Finance - Art Blocks](https://modern.finance/episode/art-blocks-erick/) <br>
+[Modern Finance - Tyler Hobbs](https://modern.finance/episode/tyler-hobbs/) <br>
