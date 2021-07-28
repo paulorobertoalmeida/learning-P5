@@ -4,12 +4,13 @@ Its a crazy ride since the moment you decided to learn something new huh? Thats 
 
 I decided to start learning P5<br>
 
-p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else! p5.js is free and open-source because we believe software, and the tools to learn it, should be accessible to everyone.
+p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else! p5.js is free and open-source because we believe software, and the tools to learn it, should be accessible to everyone. <br>
 
-[Artnome](https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy)
-<br>
-[Art News](https://www.artnews.com/list/art-in-america/features/generative-art-and-nfts-1234586572/zach-lieberman-blob-extrude-study/)
-<br>
+[Artnome](https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy) <br>
+[Art News](https://www.artnews.com/list/art-in-america/features/generative-art-and-nfts-1234586572/zach-lieberman-blob-extrude-study/)  <br>
+
+
+
 
 ## :computer: Blog Posts <br>
 [Is Generative Art for you?](https://towardsdatascience.com/is-generative-art-for-you-b1e1499945e6) <br>
@@ -18,12 +19,17 @@ p5.js is a JavaScript library for creative coding, with a focus on making coding
 ## :movie_camera: Youtube Channels <br>
 [The Code Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) <br>
 
+## :busts_in_silhouette: Tutorials <br>
+[Happy Coding P5js](https://happycoding.io/tutorials/p5js/) <br>
+
 ## :bird: Twitter <br>
 
-## :microphone::Podcast
+## :microphone: Podcast
 [Modern Finance - Art Blocks](https://modern.finance/episode/art-blocks-erick/) <br>
 [Modern Finance - Tyler Hobbs](https://modern.finance/episode/tyler-hobbs/) <br>
 
 ## :pencil: Courses <br>
 
-[Computational Creativity](https://www.kadenze.com/programs/generative-art-and-computational-creativity)
+[Computational Creativity](https://www.kadenze.com/programs/generative-art-and-computational-creativity) <br>
+[NYU Creative Coding](https://www.edx.org/course/creative-coding?index=undefined) <br>
+[Codecademy](https://www.codecademy.com/courses/learn-p5js/articles/welcome-to-learn-p5-js#_=_) <br>
