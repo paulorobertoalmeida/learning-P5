@@ -13,6 +13,7 @@ p5.js is a JavaScript library for creative coding, with a focus on making coding
 
 ## Blog Posts <br>
 [Is Generative Art for you?](https://towardsdatascience.com/is-generative-art-for-you-b1e1499945e6) <br>
+[Fundamental Elements Of Generative Art](https://towardsdatascience.com/fundamental-elements-of-generative-art-11175f4741e5) <br>
 
 ## Youtube Channels <br>
 [The Code Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) <br>
