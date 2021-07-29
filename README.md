@@ -19,6 +19,7 @@ p5.js is a JavaScript library for creative coding, with a focus on making coding
 
 ## :movie_camera: Youtube Channels <br>
 [The Code Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) <br>
+[Creative Coding with Codecademy ](https://www.youtube.com/watch?v=vR06jWwfQ3I&list=PLFzsFUO-y0HBN4XSfV9JosFZixuTPX0HC) <br>
 
 ## :busts_in_silhouette: Tutorials <br>
 [Happy Coding P5js](https://happycoding.io/tutorials/p5js/) <br>
