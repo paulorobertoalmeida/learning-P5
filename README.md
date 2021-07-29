@@ -23,6 +23,7 @@ p5.js is a JavaScript library for creative coding, with a focus on making coding
 
 ## :busts_in_silhouette: Tutorials <br>
 [Happy Coding P5js](https://happycoding.io/tutorials/p5js/) <br>
+[Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 
 ## 📘 Books <br>
 [Generative Design](https://papress.com/products/generative-design-revised-and-updated-edition-visualize-program-and-create-with-javascript-in-p5js) <br>
