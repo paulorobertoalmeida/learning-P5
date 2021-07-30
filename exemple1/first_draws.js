@@ -1,3 +1,4 @@
+//Just a Simple code to learn how this works
 function setup() {
     createCanvas(400, 400);
   }
