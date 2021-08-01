@@ -72,5 +72,7 @@ function dice(diceX, diceY, roll){
 }
 
 function mouseReleased(){
+    roll1 = int(random(1,7));
+    roll2 = int(random(1,7));
+  }
   
-}
