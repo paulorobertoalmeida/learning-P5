@@ -5,8 +5,8 @@ let sliderN;
 
 function setup() {
   createCanvas(400, 400);
-  sliderD = createSlider(1, 10, 5, 0.1);
-  sliderN = createSlider(1, 10, 5, 0.1);
+  sliderD = createSlider(1, 10, 5, 0.01);
+  sliderN = createSlider(1, 10, 5, 0.01);
 }
 
 function draw() {
@@ -18,7 +18,7 @@ function draw() {
   noFill();
   
   beginShape();
-  for ( let a = 0; a < TWO_PI * d; a += 0.02){
+  for ( let a = 0; a < TWO_PI * d; a += 0.002){
     let r = 200 * cos(k * a);
     let x = r * cos(a);
     let y = r * sin(a);
