@@ -16,6 +16,7 @@ function draw() {
   rotateZ(angle * 0.7);
   box(100);
   
+  normalMaterial();
   texture(graphics);
   angle += 0.03
 }
