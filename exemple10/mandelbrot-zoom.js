@@ -39,11 +39,14 @@ function draw(){
       scale += scale*0.5;
       redraw = true;
     }
-  if( keyIsDown(107) || keyIsDown(187))
+  if( keyIsDown(109) || keyIsDown(189))
     {
       scale += scale*0.5;
       redraw = true;
     }
+  if(redraw){
+    drawBrot();
+  }
   
 }
 
