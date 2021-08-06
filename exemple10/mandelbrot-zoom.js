@@ -4,12 +4,47 @@ let scale = 1;
 
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 400);
   
   noStroke();
   colorMode(HSB);
   
   drawBrot();
+}
+
+function draw(){
+  let redraw = false;
+  if( keyIsDown(LEFT_ARROW))
+    {
+      cenX -= 0.5 * 1/scale;
+      redraw = true;
+    }
+  if( keyIsDown(RIGHT_ARROW))
+    {
+      cenX += 0.5 * 1/scale;
+      redraw = true;
+    }
+  if( keyIsDown(UP_ARROW))
+    {
+      cenX -= 0.5 * 1/scale;
+      redraw = true;
+    }
+  if( keyIsDown(DOWN_ARROW))
+    {
+      cenX += 0.5 * 1/scale;
+      redraw = true;
+    }
+  if( keyIsDown(107) || keyIsDown(187))
+    {
+      scale += scale*0.5;
+      redraw = true;
+    }
+  if( keyIsDown(107) || keyIsDown(187))
+    {
+      scale += scale*0.5;
+      redraw = true;
+    }
+  
 }
 
 function drawBrot() {
