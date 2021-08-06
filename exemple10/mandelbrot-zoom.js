@@ -1,0 +1,64 @@
+let cenX = 0;
+let cenY = 0;
+let scale = 1;
+
+
+function setup() {
+  createCanvas(400, 400);
+  
+  noStroke();
+  colorMode(HSB);
+  
+  drawBrot();
+}
+
+function drawBrot() {
+  for(let x= 0; x < width; x ++){
+    for(let y= 0; y < height; y++){
+      let c = pixelPoint(x, y);
+      let result = calculatePoint(c);
+      
+      if (result.isIn){
+        set(x, y, color(0));
+      } else if (result.i > 1) {
+        set(x, y, color(
+        150 + 200 - pow(result.i/(50), 0.5) * 200 % 255, 80, 100
+        ));
+      }
+      else{
+        set(x, y, color(50));
+      }
+    }
+  }
+  updatePixels();
+}
+
+function pixelPoint(x,y){
+  let p = createVector(
+    (x - width/2) * (4/width) * (16/(9*scale)) + cenX,
+    (y -height/2) * (4/height) * (1/scale) + cenY
+  )
+  return p;
+}
+
+function calculatePoint(c){
+  let z0 = createVector(0,0);
+  let i = 0;
+  let bounds = 2;
+  let isIn = true;
+  
+  while(i< 50 && isIn){
+    z0 = createVector(
+      z0.x*z0.x - z0.y*z0.y + c.x,
+      2*z0.x*z0.y + c.y
+    );
+    i++ ;
+    if(z0.mag() > bounds){
+      isIn = false
+    }
+  }
+  return {
+    'i': i,
+    'isIn':isIn
+  }
+}
