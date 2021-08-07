@@ -1,4 +1,4 @@
-let quadrado;
+
 let x;
 let y;
 let z;
