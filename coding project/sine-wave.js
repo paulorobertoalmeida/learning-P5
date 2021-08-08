@@ -1,17 +1,19 @@
+//Last shape
+
 function setup() {
-    createCanvas(400, 400, WEBGL);
+    createCanvas(600, 600, WEBGL);
     angleMode(DEGREES);
   }
   
   function draw() {
-    background(30);
+    background(50);
     
     rotateX(60);
     noFill();
     stroke(255);
     //strokeWeight(3);
     
-    for(let i = 0; i < 50; i++) {
+    for(let i = 0; i < 80; i++) {
       
       let r = map(sin(frameCount /2), -1, 1, 100, 255);
       let g = map(i, 0, 50, 100, 255);
