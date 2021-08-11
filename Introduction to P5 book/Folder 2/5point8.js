@@ -1,5 +1,6 @@
+//Need to change the smooth to see results
 let x = 0;
-let smooth = 0.01;
+let smooth = 0.01; // 0.1 till 0.4
 
 function setup() {
   createCanvas(400, 400);
