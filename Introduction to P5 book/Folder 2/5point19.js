@@ -1,4 +1,4 @@
-//Finding specific letters
+//Using arrows to move a square
 
 let x = 215;
 
