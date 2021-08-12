@@ -1,4 +1,5 @@
 //Ellipse border: Testing the pointer
+//Expanding ellipse border
 
 let x = 120;
 let y = 60;
