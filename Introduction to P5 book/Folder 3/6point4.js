@@ -1,4 +1,4 @@
-//Inclined rotation rectangle
+//Inclined rotation #2
 function setup() {
     createCanvas(400, 400);
     background(0);
@@ -6,5 +6,5 @@ function setup() {
   
   function draw() {
     rotate(mouseX / 100.0);
-    rect(40, 30, 160, 20);
+    rect(-80, -10, 160, 20);
   }
