@@ -1,4 +1,4 @@
-//translating Angle
+//translating Angle long rotation
 
 let  angle = 0.0;
 
