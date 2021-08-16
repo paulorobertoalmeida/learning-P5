@@ -1,4 +1,4 @@
-//Scaling square
+//Scaling square using mouse moviment
 
 function setup() {
     createCanvas(400, 400);
