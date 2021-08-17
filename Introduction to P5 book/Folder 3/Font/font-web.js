@@ -39,3 +39,20 @@ function setup() {
     
     text("Here comes the Cowboy", 26, 24, 240, 100);
   }
+
+//Recording Variable
+
+let cita = "Here comes the Cowboy";
+
+function setup() {
+  createCanvas(500, 280);
+  textFont("Source Code Pro");
+  textSize(38);
+  
+}
+
+function draw() {
+  background(102);
+  
+  text(cita, 26, 24, 240, 100);
+}
