@@ -25,3 +25,17 @@ function setup() {
     textSize(58);
     text("Here comes the Cowboy", 25, 60);
   }
+
+  //Drawing in a square  
+  function setup() {
+    createCanvas(500, 280);
+    textFont("Source Code Pro");
+    textSize(38);
+    
+  }
+  
+  function draw() {
+    background(102);
+    
+    text("Here comes the Cowboy", 26, 24, 240, 100);
+  }
