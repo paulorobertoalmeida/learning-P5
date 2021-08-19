@@ -1,4 +1,5 @@
-//Circular Moviment
+//Circular Moviment 
+// Crazy drawing like a z in the middle with purple background
 
 let angle = 0.0;
 let distance = 200;
