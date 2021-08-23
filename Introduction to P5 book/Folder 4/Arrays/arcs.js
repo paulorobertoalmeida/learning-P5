@@ -70,3 +70,22 @@ function draw() {
     arc(x[i], y, 12, 12, 0.52, 5.76);
   }
 }
+
+//Array Exemple 4
+
+let x = [-20, 20];  //declaring the variable
+
+function setup() {
+  createCanvas(400, 400);
+  noStroke();
+}
+
+function draw() {
+  background(50);
+  x[0] += 0.5; //Increasing the first element
+  x[1] += 0.5; //Increasing the second element
+  fill(255, 255, 0);
+  arc(x[0], 30, 40, 40, 0.52, 5.76);
+  arc(x[1], 90, 40, 40, 0.52, 5.76);
+  
+}
