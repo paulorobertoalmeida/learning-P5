@@ -89,3 +89,27 @@ function draw() {
   arc(x[1], 90, 40, 40, 0.52, 5.76);
   
 }
+
+// Array + for loop
+
+let x = [12, 20];
+console.log(x.length);
+
+let y = ["cat", 10, false, 50];
+console.log(y.length);
+
+let z = [];
+console.log(z.length);
+z[0] = 20;
+console.log(z.length);
+z[1] = 4;
+console.log(z.length);
+console.log(z);
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+}
