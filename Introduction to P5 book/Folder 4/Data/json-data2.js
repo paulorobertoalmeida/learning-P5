@@ -57,3 +57,34 @@ function setup() {
 function draw() {
   background(220);
 }
+
+
+//
+
+let numTypeRobot = 3;
+let images = [];
+let scale = 0.15;
+let exercitoBot;
+
+function preload() {
+  for (let i = 0; i < numberRobot; i++) {
+    images[i] = loadImage("robot" + (i+1) + ".png");
+  }
+  exerciseBot = loadtable("exerciseBot.tsv", "header");
+}
+
+function setup() {
+  createCanvas(720, 480);
+  imageMode(CENTER);
+  for( let i = 0; i < exerciseBot.getRowCount(); i++) {
+    let robotType = exerciseBot.getNum(i, "type");
+    let x = exerciseBot.getNum(i, "x");
+    let y = exerciseBot.getNum(i, "y");
+    let bot = images[robotType -1];
+    image(bot, x, y, bot.width * width * scale, bot, bot.height * scale);
+  }
+}
+
+function draw() {
+  background(220);
+}
