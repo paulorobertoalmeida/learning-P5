@@ -88,3 +88,20 @@ function gerWeather(data) {
   let temperature = main.weather
   return temperature;
 }
+
+
+
+let weatherData;
+
+function preload(){
+  weatherData = loadJSON("cincinnati.json");
+}
+
+function setup() {
+  let temp = getWeather(weatherData);
+  console.log(temp);
+}
+
+function getWeather(data) {
+  return data.list[0].main.temp;
+}
