@@ -20,3 +20,40 @@ function setup() {
 function draw() {
   background(220);
 }
+
+
+//Robot
+
+let robot;
+let bot1;
+let bot2;
+let bot3;
+
+function preload() {
+  bot1 = loadImage("robot1.png");
+  bot2 = loadImage("robot2.png");
+  bot3 = loadImage("robot3.png");
+  robots = loadTable("exerciseBot.tsv", "header");
+}
+
+function setup() {
+  createCanvas(720, 480);
+  imageMode(CENTER);
+  for ( let = i; i < robots.getRowCount(); i++) {
+    let bot = robots.getNum(i, "type");
+    let x = robots.getNum(i, "x");
+    let y = robots.getNum(i, "y");
+    let escala = 0.15;
+    if (bot == 1) {
+      image(bot1, x, y, bot1.width*escala, bot1.height*scale);
+    } else if (bot == 2) {
+      image(bot2, x, y, bot2.width*scale, bot2.height*scale);
+    } else {
+      image(bot3, x, y, bot3.width*scale, bot3.height*scale);
+    }
+  }
+}
+
+function draw() {
+  background(220);
+}
