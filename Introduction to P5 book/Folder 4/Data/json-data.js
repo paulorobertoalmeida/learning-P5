@@ -66,3 +66,25 @@ function Film(f) {
     pop();
   }
 }
+
+
+//Weather API
+
+let weatherData;
+
+function preload() {
+  weatherData = loadJSON("cincinnati.json");
+}
+
+function setup() {
+  let weather = getWeather(weatherData);
+  console.log(weather);
+}
+
+function gerWeather(data) {
+  let list = data.list;
+  let item = list[0];
+  let main = item.main;
+  let temperature = main.weather
+  return temperature;
+}
