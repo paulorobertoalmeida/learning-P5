@@ -14,3 +14,20 @@ function draw() {
   print(i);
   //12
 }
+
+//Global and Local Variables
+
+
+
+function setup() {
+    createCanvas(400, 400);
+    let i = 24
+    
+   
+  }
+  
+  function draw() {
+    background(220);
+    print(i);
+    //ReferenceError: i is not defined
+  }
