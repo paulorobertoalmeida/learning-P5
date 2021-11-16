@@ -8,6 +8,7 @@ p5.js is a JavaScript library for creative coding, with a focus on making coding
 
 [Artnome](https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy) <br>
 [Art News](https://www.artnews.com/list/art-in-america/features/generative-art-and-nfts-1234586572/zach-lieberman-blob-extrude-study/)  <br>
+[Art Term](https://www.tate.org.uk/art/art-terms/g/generative-art) <br>
 
 
 
