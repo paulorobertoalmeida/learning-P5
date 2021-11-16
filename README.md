@@ -32,7 +32,7 @@ p5.js is a JavaScript library for creative coding, with a focus on making coding
 [Book of Shaders](https://thebookofshaders.com/) <br>
 
 ## :bird: Twitter <br>
-[Tyler RObbs](https://twitter.com/tylerxhobbs)
+[Tyler Robbs](https://twitter.com/tylerxhobbs) <br>
 
 ## :microphone: Podcast
 [Modern Finance - Art Blocks](https://modern.finance/episode/art-blocks-erick/) <br>
